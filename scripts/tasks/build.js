@@ -13,9 +13,9 @@ const copyStaticFiles = () => {
 const generatePages = () => {
 	[
 		["./content/index.html", "./templates/main.html", "./site/"],
-		["./content/gesichter-finden.html", "./templates/main.html", "./site/gesichter-finden/"],
-		["./content/gesichter-erkennen.html", "./templates/main.html", "./site/gesichter-erkennen/"],
-		["./content/ueber-das-projekt.html", "./templates/main.html", "./site/ueber-das-projekt/"],
+		["./content/facial-detection.html", "./templates/main.html", "./site/facial-detection/"],
+		["./content/facial-recognition.html", "./templates/main.html", "./site/facial-recognition/"],
+		["./content/about.html", "./templates/main.html", "./site/about/"],
 	].map(item => generatePage(item[0], item[1], item[2]))
 }
 
